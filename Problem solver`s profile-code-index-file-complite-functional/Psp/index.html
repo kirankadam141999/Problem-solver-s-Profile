@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="bootstrap-5.0.2-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="projectCSS/index.css">
+
+    <link href='https://fonts.googleapis.com/css?family=Germania One' rel='stylesheet'>
+
+    <!-- Bootstrap offline JavaScript -->
+    <script src="bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
+
+    <nav class="navbar sticky-top " id="nva" >
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="../assets/logo.png" alt="" style="margin: 0px;" width="55" height="55" class="d-inline-block align-text-top" >
+          
+          
+        </a>
+        
+          
+          <button class="btn" onclick="openmenu()"><i class="fa fa-home"></i>
+            <img src="../assets/3440833_person_woman_female_user_profile_icon.png" alt="" style="margin: 0px;" width="30" height="30"  class="d-inline-block align-text-top">
+          </button>
+          
+       
+        
+      </div>
+      <div>
+        <div class="shadow p-3 bg-body  mymenu " id="topmenu" style="border-radius: 40px;">
+          <button class="r_btn-menu action2" >Sign Up</button>
+          <hr class="r_line" >  
+          <button class="r_btn-menu action2"   >Login</button>
+        </div>
+      </div> 
+    </nav>
+
+</head>
+
+<body onscroll="onscrollinpage()" >
+    
+   
+    <div class="back-1">
+
+        <div class="gray-circle"></div>   
+        <div class="half-circle-left shadow"></div>   
+        <p class="projectname">Problem Solver`s Profile</p>  
+        <div class="half-circle-right"></div>
+        <div class="gray-circle-tow"></div> 
+        <div class="imgback">
+             <img class="arrow" src="../assets/down-arrow-png-transparent-down-arrow-images-510787.png"> 
+        </div>
+       
+    </div>
+    
+    
+    
+ <div class="r_main">
+    
+    <div>
+       <p class="r_name1" >it contain info...</p>
+       <p class="r_name2" >about coder friends...</p>
+       <p class="r_name3" >To improve each other skill..</p>
+       <img class="r_imga1" src="../assets/aaa.png">
+    </div>
+    
+    <hr class="r_line" >
+    
+    <div>
+       <p class="r_name4" >Project</p>
+       <p class="r_name5" >interact with live project new idea with fexlible time</p>
+       <div class="r_img2_box" >
+          <img class="r_imga2"  src="../assets/NicePng_web-application-development-png_2527579.png">
+       </div>
+       <p class="r_name6" >*you can implement your idea*</p>
+       <div class="r_img3_box" > 
+       <img class="r_imga3"  src="../assets/kisspng-computer-programming-web-development-computer-soft-coder-5ac6d6012fdda4.9202230715229803531961.png">
+       </div>
+       <p class="r_name7" >*help each other*</p>
+    </div>
+   
+   <hr class="r_line" >
+   
+   <div>
+	
+	   <p class="r_name8 " >i don't have account...</p>
+	   <button class="r_btn1 action" >Sign Up</button>
+
+	   <p class="r_name9 " >i have account...</p>
+	   <button class="r_btn2 action"   >Login</button>
+	
+   </div>
+   
+ </div>
+   
+   
+
+    
+</body>
+
+<script>
+  window.scroll.document.getElementById('topmenu').visibility="hidden";
+function openmenu(){
+ 
+
+  var x = document.getElementById('topmenu');
+  if (x.style.visibility === 'hidden') {
+    x.style.visibility = 'visible';
+  } else {
+    x.style.visibility = 'hidden';
+  }
+
+}
+
+function onscrollinpage(){
+  document.getElementById('topmenu').style.visibility="hidden";
+}
+
+
+</script>
+</html>
