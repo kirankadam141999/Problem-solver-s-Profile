@@ -762,12 +762,12 @@ body {
   .projectname {
     font-size: 120px;
     color: #053742;
-    margin-top: -590px;
+    margin-top: -450px;
     margin-left: 50px;
   }
   .half-circle-left {
     backdrop-filter: blur(5px);
-    margin-top: -100px;
+    margin-top: -200px;
     width: 350px;
     height: 650px;
     background-color: #39a2db;
@@ -798,7 +798,7 @@ body {
     box-sizing: border-box;
   }
   .gray-circle {
-    margin-top: 50px;
+    margin-top: -150px;
     height: 200px;
     width: 200px;
     margin-left: 400px;
